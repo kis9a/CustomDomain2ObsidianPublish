@@ -15,4 +15,4 @@ Let's see note and details on forum conversation ([Custom domain setup with AWS 
 See example/ directory, you need to customize backend configuration(backend.tf), provider parameters(provider.tf), data source (data.tf), this module parameters (customOrigin2Obsidian.tf) for you.
 
 - Example <https://md.kis9a.com>  
-  CloudFront distribution what routed by Route53 custom domain(md.kis9a.com), request to custom origin (publish.obsidian.md) with custom header(X-Obsidian-Custom-Domain: md.kis9a.com). custom origin (publish.obsidian.md) solve request and return your contents.
+   CloudFront distribution what routed by Route53 custom domain(md.kis9a.com), request to custom origin (publish.obsidian.md) with custom header(X-Obsidian-Custom-Domain: md.kis9a.com). custom origin (publish.obsidian.md) solve request and return your contents. Need custom domain setting in Obsidian app (image: [obsidian custom doamin settings](./example/obsidian-custom-domain-settings.png))
