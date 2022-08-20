@@ -1,4 +1,4 @@
-### CustomOrigin2Obsidian
+### CustomDomain2ObsidianPublish
 
 Setup custom domain to publish obsidian with terraform, No description how using with AWS Route53 on official document ([Set up a custom domain](https://help.obsidian.md/Obsidian+Publish/Set+up+a+custom+domain)), But, I found it at obsidian forum ([Custom domain setup with AWS Route53 and Cloudfront](https://forum.obsidian.md/t/custom-domain-setup-with-aws-route53-and-cloudfront/23313/6)). Make terraform, learn from it and some description for Obsidian Publish user and me.
 
@@ -12,7 +12,7 @@ Let's see note and details on forum conversation ([Custom domain setup with AWS 
 
 ### How to use this module
 
-See example/ directory, you need to customize backend configuration(backend.tf), provider parameters(provider.tf), data source (data.tf), this module parameters (customOrigin2Obsidian.tf) for you.
+See example/ directory, you need to customize backend configuration(backend.tf), provider parameters(provider.tf), data source (data.tf), this module parameters (modules.tf) for you.
 
 - Example <https://md.kis9a.com>  
    CloudFront distribution what routed by Route53 custom domain(md.kis9a.com), request to custom origin (publish.obsidian.md) with custom header(X-Obsidian-Custom-Domain: md.kis9a.com). custom origin (publish.obsidian.md) solve request and return your contents. Need custom domain setting in Obsidian app (image: [obsidian custom doamin settings](./example/obsidian-custom-domain-settings.png))

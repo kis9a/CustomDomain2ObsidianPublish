@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    key     = "terraform-custom-origin-2-obsidian.tfstate"
+    key     = "terraform-custom-domain-2-obsidian-publish.tfstate"
     bucket  = "kis9a-terraform-states"
     region  = "ap-northeast-1"
     profile = "kis9a"

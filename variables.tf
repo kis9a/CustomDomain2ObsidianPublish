@@ -1,6 +1,6 @@
 variable "service_name" {
   type        = string
-  default     = "customOrigin2Obsidian"
+  default     = "CustomDomain2ObsidianPublish"
   description = "Service name, used resources name prefix"
 }
 
